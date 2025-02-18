@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e0e0e0;
+    padding: 15px 30px;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5); /* Màu chữ mờ nhạt */
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.nav-links .active {
+    color: black; /* Màu đen cho "Home" */
+    font-weight: bold;
+}
+.search-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.search-button:hover {
+    background-color: #5a6268;
+}
